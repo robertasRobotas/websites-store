@@ -1,0 +1,75 @@
+.closed {
+  left: -600px;
+}
+
+.tabsWrapper {
+}
+
+ul {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  padding-top: 1rem;
+  height: 285px;
+  z-index: 2;
+  width: 100%;
+  top: 4em;
+  background-color: rgb(112, 44, 44);
+}
+
+.ResponsiveLinks {
+  display: grid;
+}
+.additionalLinkWrapper {
+  display: grid;
+}
+
+.tabletLogoutButton {
+  width: calc(100% - 40px);
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  border-top: 1px solid #e1e4e8;
+  font-weight: 600;
+  color: rgb(212, 212, 212);
+  font-size: 1rem;
+  padding-top: 24px;
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+
+.tabletLogoutButton:hover {
+  color: rgb(165, 165, 165);
+}
+
+@media only screen and (min-width: 600px) {
+  ul {
+    padding: 0;
+    grid-column: 4/11;
+    position: static;
+    height: auto;
+    width: auto;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .ResponsiveLinks {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0;
+  }
+
+  .additionalLinkWrapper {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  ul {
+    grid-column: 6/10;
+    position: static;
+    height: auto;
+    width: auto;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0);
+  }
+}

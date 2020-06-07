@@ -1,0 +1,14 @@
+.dropDownLink {
+  display: block;
+  margin: 0;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  padding-left: 5px;
+  font-size: 0.9em;
+}
+
+.dropDownLink:hover {
+  background-color: rgba(0, 129, 198, 0.6);
+  color: white;
+}

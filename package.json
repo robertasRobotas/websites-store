@@ -1,0 +1,41 @@
+{
+  "name": "authTemplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "front": "cd front && npm start",
+    "back": "cd back && npm start",
+    "dev": "concurrently \"npm run back\" \"npm run front\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertasRobotas/authTemplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robertasRobotas/authTemplate/issues"
+  },
+  "homepage": "https://github.com/robertasRobotas/authTemplate#readme",
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "cookie-parser": "^1.4.4",
+    "express-session": "^1.17.0",
+    "hamburgers": "^1.1.3",
+    "i": "^0.3.6",
+    "mobx": "^5.15.4",
+    "mobx-react": "^6.2.2",
+    "mobx-react-devtools": "^6.1.1",
+    "mobx-state-tree": "^3.15.0",
+    "npm": "^6.14.4",
+    "passport-facebook": "^3.0.0",
+    "react-router-dom": "^5.1.2",
+    "react-social-login-buttons": "^3.0.0",
+    "styled-components": "^5.0.1"
+  }
+}

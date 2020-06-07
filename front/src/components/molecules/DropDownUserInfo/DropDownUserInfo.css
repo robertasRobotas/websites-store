@@ -1,0 +1,71 @@
+div {
+  font-size: 1em;
+}
+
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 15px solid #fff;
+  position: absolute;
+  right: 5px;
+  top: -15px;
+}
+
+.wrapper {
+  height: 250px;
+  width: 160px;
+  position: absolute;
+  top: 55px;
+  right: 17px;
+  z-index: 20;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  background-clip: padding-box;
+  padding: 6px;
+}
+
+.infoText {
+  padding-left: 5px;
+  display: block;
+  font-size: 0.8em;
+  margin-bottom: 5px;
+}
+
+.userName {
+  padding-left: 5px;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 0.9em;
+}
+
+.line {
+  display: block;
+  height: 0;
+  margin: 8px 0;
+  border-top: 1px solid #e1e4e8;
+}
+
+.logoutButton {
+  border: 0;
+  width: 100%;
+  text-align: left;
+  font-size: 0.9em;
+}
+.logoutButton:hover {
+  background-color: rgba(0, 129, 198, 0.6);
+  color: white;
+}
+
+.buttonWrapper {
+  height: 1.8em;
+  opacity: 0.8;
+}
+
+.buttonWrapper:hover {
+  opacity: 1;
+}

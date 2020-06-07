@@ -1,0 +1,29 @@
+.not-pressed {
+  width: 40px;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  cursor: pointer;
+  width: 1.5em;
+}
+
+.not-pressed:after,
+.not-pressed:before,
+.not-pressed div {
+  background-color: #fff;
+  border-radius: 3px;
+  content: '';
+  display: block;
+  height: 3px;
+  margin-bottom: 7px;
+  transition: all 0.2s ease-in-out;
+}
+
+@media only screen and (min-width: 600px) {
+  .not-pressed {
+    display: none;
+  }
+  .pressed {
+    display: none;
+  }
+}

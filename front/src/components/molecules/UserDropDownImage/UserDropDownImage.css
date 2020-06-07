@@ -1,0 +1,47 @@
+.user {
+  display: none;
+}
+
+.userComponents {
+  position: relative;
+  text-align: center;
+  display: grid;
+  width: 3em;
+  top: 30%;
+  cursor: pointer;
+  float: right;
+  margin-right: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+  .user {
+    display: inline-block;
+    grid-column: 11/13;
+    position: static;
+    height: auto;
+    width: auto;
+    top: 0;
+  }
+}
+
+.userPhoto {
+  height: 1.5em;
+  width: 1.5em;
+  border-radius: 0.3em;
+}
+
+.arrow-down {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  vertical-align: middle;
+  content: '';
+  border-top-style: solid;
+  border-top-width: 0.4em;
+  border-right: 0.4em solid transparent;
+  border-bottom: 0 solid transparent;
+  border-left: 0.4em solid transparent;
+  position: relative;
+  bottom: 0.8em;
+  left: 1.9em;
+}

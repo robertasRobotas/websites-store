@@ -1,0 +1,33 @@
+.Logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: white;
+  height: 4em;
+  min-width: 4em;
+}
+
+@media only screen and (min-width: 600px) {
+  .Logo {
+    position: static;
+    transform: translateX(0);
+    margin-top: auto;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .Logo {
+    position: static;
+    transform: translateX(0);
+  }
+}
+
+.Text {
+  position: relative;
+  margin: auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
